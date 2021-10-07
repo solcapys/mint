@@ -4,6 +4,14 @@ import Countdown from "react-countdown";
 import { Button, CircularProgress, Snackbar, Container, Box, Grid } from "@material-ui/core";
 import Alert from "@material-ui/lab/Alert";
 import logo from './imagenes/regular.png';
+import capy1 from './imagenes/zombie.png';
+import capy2 from './imagenes/dmt.png';
+import capy3 from './imagenes/blue.png';
+import capy4 from './imagenes/green.png';
+import capy5 from './imagenes/purple.png';
+import capy6 from './imagenes/gold.png';
+import capy7 from './imagenes/regular2.png';
+import { SocialIcon } from 'react-social-icons';
 import './Home.css';
 
 import * as anchor from "@project-serum/anchor";
@@ -264,10 +272,113 @@ const Home = (props: HomeProps) => {
 
   <div className="center-image">
         <h3>
-        3333 capybaras randomly generated from more than 87 traits, living on the solana network, free to mint(just pay the fees)!! 
+        3333 capybaras randomly generated from more than 87 traits, chilling on the solana network, free to mint(just pay the fees)!! 
         </h3>
-</div>       
+  </div>       
   
+  </Grid>
+
+  <Grid item xs={12}>
+
+  <div className="center-image">
+  
+              <h2>
+                Road Map 1.0
+              </h2>
+
+<h3>{'\u2728'}We aim to create a great community, this roadmap is open to new ideas and changes</h3>
+
+<h3>- Generate the art 3333 pixel capybaras{'\u2705'}</h3>
+
+<h3>- Create the Web Page{'\u2705'}</h3>
+
+<h3>- drop the capys{'\u2705'}</h3>
+
+<h3>- giveaway at 50% claimed</h3>
+
+<h3>- giveaway at 100% capys claimed</h3>
+
+<h3>- release capys rarity</h3>
+
+<h3>- publish capys collection on nft markets</h3>
+
+<h3>- Generate token</h3>
+
+  </div>
+  
+  </Grid>
+
+  <Grid item xs={12}>
+
+  <div className="center-image">
+
+  <h2>types of capys  </h2>
+
+  <h3>there are 10 unique surprise 1/1 capys{'\u2728'} and the rest are </h3>
+
+  <div className="center-image">
+          <img src={capy1} alt="capy1" width="200" height="200"/>
+          <h4>zombie</h4>
+          <br></br>
+  </div> 
+
+  <div className="center-image">
+          <img src={capy2} alt="capy2" width="200" height="200"/>
+          <h4>dmt</h4>
+          <br></br>
+  </div> 
+
+  <div className="center-image">
+          <img src={capy3} alt="capy3" width="200" height="200"/>
+          <h4>blue</h4>
+          <br></br>
+  </div> 
+
+  <div className="center-image">
+          <img src={capy4} alt="capy4" width="200" height="200"/>
+          <h4>green</h4>
+          <br></br>
+  </div> 
+
+  <div className="center-image">
+          <img src={capy5} alt="capy5" width="200" height="200"/>
+          <h4>purple</h4>
+          <br></br>
+  </div> 
+
+  <div className="center-image">
+          <img src={capy6} alt="capy6" width="200" height="200"/>
+          <h4>golden</h4>
+          <br></br>
+  </div> 
+
+  <div className="center-image">
+          <img src={capy7} alt="capy7" width="200" height="200"/>
+          <h4>regular</h4>
+          <br></br>
+  </div> 
+  </div>
+
+  </Grid>
+
+  <Grid item xs={4}>
+
+  
+
+  </Grid>
+  <Grid item xs={4}>
+
+  <div className="center-image">
+
+  <SocialIcon url="https://twitter.com/solcapys" />
+
+  <SocialIcon url="https://discord.com/invite/MbUQjbDTJ3"/>
+
+  </div>
+
+  </Grid>
+  <Grid item xs={4}>
+
   </Grid>
 
 </Grid>
